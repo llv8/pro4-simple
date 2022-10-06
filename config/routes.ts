@@ -50,6 +50,12 @@ export default [
     component: './TableList',
   },
   {
+    name: 'test',
+    icon: 'table',
+    path: '/test',
+    component: './Test',
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
